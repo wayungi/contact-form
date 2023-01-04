@@ -60,9 +60,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 <a name="about-project">Hello Microverse</a>
+# 📖 <a name="about-project">Contact Form</a>
 
-**Hello Microverse** is a project built to practice how to correctly set up and HTML & CSS project with linters and a .gitignore file
+**Contact Form** is a project built to practice how to correctly set up and HTML & CSS project with linters and a .gitignore file all while add a contact form to a pre-existing project
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -76,6 +76,10 @@ After you're finished please remove all the comments and instructions!
     <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/">CSS</a></li>
   </ul>
+   </ul>
+    <ul>
+    <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Flex box</a></li>
+  </ul>
 </details>
 
 <!-- Features -->
@@ -84,8 +88,8 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **Uses HTML to display a header**
-- **All styleing is done in a seperate css file**
+- **Uses Formspree to handle form data**
+- **Form components are laid out wit flex box**
 - **HTML & CSS linters are used**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -103,14 +107,14 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder: `git@github.com:wayungi/hello_microverse.git`
+Clone this repository to your desired folder: `git@github.com:wayungi/contact-form.git`
 
 In your desired folder;
-- open the terminal and paste: `git@github.com:wayungi/hello_microverse.git`
-- cd into hello_microvsers
+- open the terminal and paste: `git@github.com:wayungi/contact-form.git`
+- cd into contact-form
 - Right click on the index.html file
 - Choose open in browser.
-- Check your default browser. A page with the text "hello world" should be loaded
+- Check your default browser. The application should be loaded
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
