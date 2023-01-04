@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&family=Inter:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 * {
   padding: 0;
@@ -330,6 +331,14 @@ li {
   margin: 120px 24px;
 }
 
+.contact-me p {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172B4D;
+}
+
 .contact-me form, .contact-me {
   display:flex;
   flex-direction: column;
@@ -347,6 +356,10 @@ input[type="text"] {
   margin-top:73px;
 }
 
+input[type="email"] {
+  margin-bottom: 50px;
+}
+
 textarea {
   border:none;
   padding:0 24px;
@@ -357,6 +370,28 @@ textarea:focus {
   outline:none;
 }
 
-input[type="email"] {
-  margin-bottom: 50px;
+input[type="submit"] {
+  all:unset;
+  text-align:center;
+  width:fit-content;
+  padding:24px;
+  margin:0 auto;
+  background-color: #F55800;
+  border:1px solid #F55800;
+  color:#fff;
+  font-weight:700;
 }
+
+input[type="submit"]:hover {
+  background-color: #fff;
+  color: #F55800;
+}
+
+input[type="submit"]:active {
+  background-color: #E05304;
+  color: #fff;
+}
+
+
+
+

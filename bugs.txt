@@ -1,3 +1,10 @@
 name field accepts more than 30 characters: maxlength="30"
 form can be submitted without email: required
 textarea does not have placeholder text:  placeholder="Enter text here" 
+Submit button capitalization
+font used:  add-to .contact-me p =>  font-family: 'Inter', sans-serif;
+----------------------------------------
+add this at the bottom of dtylesheets
+input[type="text"], input[type="email"], input[type="submit"] {
+  font-family: 'Inter', sans-serif;
+}
