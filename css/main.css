@@ -336,24 +336,26 @@ li {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
-.contact-me form, .contact-me {
-  display:flex;
+.contact-me form,
+.contact-me {
+  display: flex;
   flex-direction: column;
 }
 
-input[type="text"], input[type="email"] {
-  all:unset;
-  border:none;
-  height:50px;
-  border-bottom: 1px solid #DBD8D7;
+input[type="text"],
+input[type="email"] {
+  all: unset;
+  border: none;
+  height: 50px;
+  border-bottom: 1px solid #dbd8d7;
   padding: 0 20px;
 }
 
 input[type="text"] {
-  margin-top:73px;
+  margin-top: 73px;
 }
 
 input[type="email"] {
@@ -361,34 +363,34 @@ input[type="email"] {
 }
 
 textarea {
-  border:none;
-  padding:0 24px;
+  border: none;
+  padding: 0 24px;
   margin-bottom: 24px;
 }
 
 textarea:focus {
-  outline:none;
+  outline: none;
 }
 
 input[type="submit"] {
-  all:unset;
-  text-align:center;
-  width:fit-content;
-  padding:24px;
-  margin:0 auto;
-  background-color: #F55800;
-  border:1px solid #F55800;
-  color:#fff;
-  font-weight:700;
+  all: unset;
+  text-align: center;
+  width: fit-content;
+  padding: 24px;
+  margin: 0 auto;
+  background-color: #f55800;
+  border: 1px solid #f55800;
+  color: #fff;
+  font-weight: 700;
 }
 
 input[type="submit"]:hover {
   background-color: #fff;
-  color: #F55800;
+  color: #f55800;
 }
 
 input[type="submit"]:active {
-  background-color: #E05304;
+  background-color: #e05304;
   color: #fff;
 }
 
@@ -399,13 +401,7 @@ input[type="submit"]:active {
   }
 
   .contact-me p {
-
-    margin-right:20px;
+    margin-right: 20px;
     text-align: left;
   }
-  
 }
-
-
-
-
