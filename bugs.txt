@@ -8,3 +8,22 @@ add this at the bottom of dtylesheets
 input[type="text"], input[type="email"], input[type="submit"] {
   font-family: 'Inter', sans-serif;
 }
+
+-------------------------------@media only screen and (min-width: 768px) {
+  .contact-me {
+    flex-direction: row;
+    margin: 135px 100px;
+  }
+
+  .contact-me p {
+
+    margin-right:20px;
+    text-align: left;
+  }
+
+  input[type="text"] {
+    margin-top:0;
+
+  }
+  
+}
