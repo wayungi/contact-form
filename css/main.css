@@ -325,3 +325,14 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+.contact-me {
+  display:flex;
+  flex-direction: column;
+  outline:1px solid black;
+}
+
+.contact-me form, .contact-me {
+  display:flex;
+  flex-direction: column;
+}

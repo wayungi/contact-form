@@ -1,0 +1,3 @@
+name field accepts more than 30 characters: maxlength="30"
+form can be submitted without email: required
+textarea does not have placeholder text:  placeholder="Enter text here" 
