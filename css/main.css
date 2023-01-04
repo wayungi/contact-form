@@ -327,12 +327,36 @@ li {
 }
 
 .contact-me {
-  display:flex;
-  flex-direction: column;
-  outline:1px solid black;
+  margin: 120px 24px;
 }
 
 .contact-me form, .contact-me {
   display:flex;
   flex-direction: column;
+}
+
+input[type="text"], input[type="email"] {
+  all:unset;
+  border:none;
+  height:50px;
+  border-bottom: 1px solid #DBD8D7;
+  padding: 0 20px;
+}
+
+input[type="text"] {
+  margin-top:73px;
+}
+
+textarea {
+  border:none;
+  padding:0 24px;
+  margin-bottom: 24px;
+}
+
+textarea:focus {
+  outline:none;
+}
+
+input[type="email"] {
+  margin-bottom: 50px;
 }
