@@ -52,7 +52,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **Uses Formspree to handle form data**
 - **Form components are laid out wit flex box**
@@ -64,8 +63,6 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://wayungi.github.io/contact-form/)
 
