@@ -376,7 +376,7 @@ input[type="submit"] {
   all: unset;
   text-align: center;
   width: fit-content;
-  padding: 24px;
+  padding: 12px;
   margin: 0 auto;
   background-color: #f55800;
   border: 1px solid #f55800;
