@@ -44,7 +44,7 @@
   </ul>
    </ul>
     <ul>
-    <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Flex box</a></li>
+    <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">FormSpree</a></li>
   </ul>
 </details>
 
@@ -52,7 +52,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **Uses Formspree to handle form data**
 - **Form components are laid out wit flex box**
@@ -65,9 +64,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://wayungi.github.io/hello_microverse/)
+- [Live Demo Link](https://wayungi.github.io/contact-form/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,7 +164,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, please visit the developer's ![youtube](https://www.youtube.com) channel and leave a like. !
+If you like this project, please visit the main page ofthis repo and give the project a ⭐️ !
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
