@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&family=Inter:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 * {
   padding: 0;
@@ -324,4 +325,95 @@ li {
 
 .skills {
   list-style: inside url("../media/svg/circle.svg");
+}
+
+.contact-me {
+  margin: 120px 24px;
+}
+
+.contact-me p {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.contact-me form,
+.contact-me {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"] {
+  all: unset;
+  border: none;
+  height: 50px;
+  border-bottom: 1px solid #dbd8d7;
+  padding: 0 20px;
+}
+
+input[type="text"] {
+  margin-top: 73px;
+}
+
+input[type="email"] {
+  margin-bottom: 50px;
+}
+
+textarea {
+  border: none;
+  padding: 0 24px;
+  margin-bottom: 24px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+input[type="submit"] {
+  all: unset;
+  text-align: center;
+  width: fit-content;
+  padding: 12px;
+  margin: 0 auto;
+  background-color: #f55800;
+  border: 1px solid #f55800;
+  color: #fff;
+  font-weight: 700;
+}
+
+input[type="submit"]:hover {
+  background-color: #fff;
+  color: #f55800;
+}
+
+input[type="submit"]:active {
+  background-color: #e05304;
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+footer img {
+  margin-right: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-me {
+    flex-direction: row;
+    margin: 135px 100px;
+  }
+
+  .contact-me h2 {
+    font-family: 'Inter', sans-serif;
+    margin-right: 20px;
+    text-align: left;
+  }
 }
