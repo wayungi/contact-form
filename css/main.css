@@ -411,7 +411,8 @@ footer img {
     margin: 135px 100px;
   }
 
-  .contact-me p {
+  .contact-me h2 {
+    font-family: 'Inter', sans-serif;
     margin-right: 20px;
     text-align: left;
   }
